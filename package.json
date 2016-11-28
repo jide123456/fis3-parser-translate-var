@@ -1,0 +1,12 @@
+{
+  "name": "fis3-parser-translate-var",
+  "version": "1.0.0",
+  "description": "a simple fis3 plugin that be use to translate variate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keyword": ["fis3", "plugin", "translate"],
+  "author": "jide",
+  "license": "ISC"
+}
