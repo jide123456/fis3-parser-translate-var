@@ -1,8 +1,6 @@
 # fis3-parser-translate-var
 
-> a simple fis3 plugin that be use to translate variate
-
-view (source)[https://github.com/jide123456/fis3-parser-translate-var]
+> a simple fis3 plugin that be use to translate variate, view [source](https://github.com/jide123456/fis3-parser-translate-var)
 
 ## usage
 

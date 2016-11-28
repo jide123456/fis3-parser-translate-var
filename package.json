@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-translate-var",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "a simple fis3 plugin that be use to translate variate",
   "main": "index.js",
   "scripts": {
