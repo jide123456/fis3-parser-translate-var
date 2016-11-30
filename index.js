@@ -1,4 +1,4 @@
-module.exports = function (content, file, options) {
+module.exports = (content, file, options) => {
 	let 
 		maps = options.maps,
 		ctn = content
@@ -9,8 +9,6 @@ module.exports = function (content, file, options) {
 		}
 
 		ctn = ctn.replace(reg, maps[e])
-		console.log(e)
-		console.log(ctn)
 	})
 
 	return ctn

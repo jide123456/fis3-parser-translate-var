@@ -1,21 +1,23 @@
 # fis3-parser-translate-var
 
-> a simple fis3 plugin that be use to translate variate, view [source](https://github.com/jide123456/fis3-parser-translate-var)
+> a simple fis3 plugin that be use to translate variate
 
 ## usage
 
 ```javascript
 fis
     .media('prod')
-    .match('*.{html,css,js}')
-    .parser: [
-        fis.plugin('translate-var', {
-            maps: {
-                __DOMAIN__: 'http://test.cdn.com',
-                __PORT__: 8080
-            }    
-        })
-    ]
+    .match('*.{html,css,js}', {
+        parser: [
+            fis.plugin('translate-var', {
+                maps: {
+                    __DOMAIN__: 'http://test.cdn.com',
+                    __PORT__: 8080
+                }    
+            })
+        ]
+    })
+
 ```
 
 ## demo
@@ -49,3 +51,9 @@ var url = 'http://test.cdn.com:8080/resource/list'
 ### maps | object
 
 a key value use to translate
+
+
+## links
+
+- [github](https://github.com/jide123456/fis3-parser-translate-var)
+- [npm](https://www.npmjs.com/package/fis3-parser-translate-var)
